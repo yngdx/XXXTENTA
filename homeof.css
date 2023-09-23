@@ -1,0 +1,94 @@
+.icon{
+  width: 200px;
+  float: left;
+  height: 75px;
+  top: 5px;
+}
+.logo{
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 10px;
+  float: left;
+  padding-top: 2px;
+}
+body
+{
+    width: 90%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5) 50%,  rgba(0,0,0,0.5) 50%) ,url(image.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+  }
+  h2
+  {
+    color: #ff7200;
+    text-align: center;
+    font-size: 350%;
+  }
+  p{
+    font-size: 200%;
+    color: aliceblue;
+    text-align:right;
+  }
+  .avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    position: absolute;
+    margin-left: 1200px;
+    border: 1.4px solid #ff7200;
+    top: 550px;
+    position: fixed;
+    cursor: pointer;
+   }
+
+   .avatar1{
+    width: 240px;
+    height: 240px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: 120px;
+    border: 1.4px solid #312e2c;
+    top: 520px;
+    cursor: pointer;
+   }
+   .avatar2{
+    width: 240px;
+    height: 240px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: 400px;
+    border: 1.4px solid #312e2c;
+    top: 520px;
+    cursor: pointer;
+   }
+   .avatar3{
+    width: 240px;
+    height: 240px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: 660px;
+    border: 1.4px solid #312e2c;
+    top: 520px;
+    cursor: pointer;
+   }
+   .avatar4{
+    width: 240px;
+    height: 240px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: 920px;
+    border: 1.4px solid #312e2c;
+    top: 520px;
+    cursor: pointer;
+   }
+  #img-gal{
+    height: 240px;
+    padding: 20px;
+   }
+   .avatar15{
+    border-radius: 8%;
+    border: 5.4px solid rgb(226, 11, 11);
+    cursor: pointer;
+   }

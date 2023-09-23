@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Webpage Design</title>
+        <link rel="stylesheet" href="1x.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">XaVy Inc</h2>
+                </div>
+                <div class="sign">
+                    <img src="Logo.png" width="100px" height="75px" class="avatar" >
+                </div>
+               </div>
+                    <div class="content">
+                        <h1>Interviews & <br> <span>Credity creation</span></br> Pictures And Videos</h1>
+                        <p class="par">
+                          Official Page for rapper Jahsey Onfroy known as XXXTENTACION<br> This Website will be Publishing His different platform
+                          that he realesed before his Death.<br>
+                         </p>
+
+                         <button class="cn"><a href="file:///C:/Users/grizz/OneDrive/Desktop/Ojo/sign%20up.html">JOIN US</a></button>
+                    <div class="form">
+                        <h2>Log in</h2>
+                        <input type="email"name="email" placeholder="Enter Email">
+                        <input type="password"name="pswd" placeholder="Enter Password" id="pswd">
+                        <button class="btnn" onclick="checkPswd()"> Login </button>
+                    <script type="text/javascript">
+                    function checkPswd() 
+                   {
+                      var confirmPasscode = "xavy" ;
+                      var Passcode = document.getElementById("pswd").value;
+                      if (Passcode == confirmPasscode) 
+                {
+                       window.location="home.html";
+            }
+                      else
+            {
+                      alert("The Password you entered is not correct");
+            }
+        }
+        </script>
+                        <p class="link">Don't have an account<br>
+                        <a href="file:///C:/Users/grizz/OneDrive/Desktop/Ojo/sign%20up.html">Sign up here</a></p>
+                        <p class="liw">Log in with</p>
+
+                         <div class="icon">
+                            <a href="#"><ion-icon name="logo-Facebook"></ion-icon></a>
+                         </div>
+                         <a href="#">
+                            <i class="fa fa-facebook"></i>
+                         </a>
+            </div>
+            </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+</html>

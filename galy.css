@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background:linear-gradient(to top, rgba(0,0,0,0.5) 50%,  rgba(0,0,0,0.5) 50%) ,url(image.png);
+
+}
+.avatar{
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  position: absolute;
+  margin-left: 1200px;
+  border: 1.4px solid #ff7200;
+  top: 550px;
+  position: fixed;
+  cursor: pointer;
+ }
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px ; 
+}
+.container .heading{
+  width: 100%;
+  padding-bottom: 3%;
+  color:#ff7200;
+}
+.container .heading h3{
+font-size: 3em;
+font-weight: bolder;
+padding-bottom: 10px;
+border-bottom: 3px solid #ff7200 ;
+}
+.container .heading h3 span{
+font-weight: 100;
+}
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+.container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+  }
+  .container .box .dream img {
+   
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+ 

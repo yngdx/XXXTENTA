@@ -1,0 +1,37 @@
+body{
+    width: 90%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5) 50%,  rgba(0,0,0,0.5) 50%) ,url(image.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+  }
+  h1{
+    color: #ff7200;
+    text-align: center;
+    font-size: 350%;
+  }
+  .avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    position: absolute;
+    margin-left: 1200px;
+    border: 1.4px solid #ff7200;
+    top: 550px;
+    position: fixed;
+    cursor: pointer;
+   }
+   p{
+    text-align: center;
+   }
+   #video-gal{
+    height: 290px;
+    padding: 50px;
+   }
+   .avatar1{
+    border-radius: 8%;
+    border: 1.4px solid rgb(68, 67, 67);
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+   }
